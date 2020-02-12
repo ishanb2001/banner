@@ -35,3 +35,9 @@ html {
   width: 100%;
   display: 100%;
 }
+
+.banner{
+  overflow: hidden;
+  position: relative;
+  max-height: 25em;
+}
