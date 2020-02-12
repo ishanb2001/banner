@@ -5,29 +5,33 @@
 @viewport { width: device-width; scale: 1; }
 
 html {
-  box-sizing: border-box;
-
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-
-  font-family: "PT Sans", sans-serif;
+  box-sizing: border-box;
+  font-family: Dosis, sans-serif;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-.img-flex {
-  display: block;
+.banner-content {
+  color: #fff;
   width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.img-flex {
+  width: 100%;
+  display: block;
 }
 
 .banner {
-
-}
-
-.banner-content {
-
+  overflow: hidden;
+  position: relative;
+  max-height: 24em;
 }
