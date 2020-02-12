@@ -22,3 +22,16 @@ html {
   color: #fff;
   top: 20em;
 }
+
+.banner-content {
+  color: #fff;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.img-flex{
+  width: 100%;
+  display: 100%;
+}
